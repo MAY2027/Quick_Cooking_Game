@@ -1,0 +1,77 @@
+body{
+    min-height: 100vh;
+    padding: 20px 20px;
+    background: linear-gradient(135deg, #f7dee3, #f9b2c5);
+    display: flex;
+    align-items: center;
+}
+
+.step2 h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #363636;
+}
+
+.dishName{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 14px;
+    
+}
+
+.dish {
+    padding: 14px 16px;
+    
+
+    background: white;
+    margin-bottom: 13px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    justify-content: center;
+}
+
+.dish:hover{
+    background: #f9eaed;
+}
+
+.dish.active{
+    border-color: #f510ad;
+    background: #ffe0ea;
+    font-weight: bold;
+}
+
+.step2 button{
+    padding: 12px 30px;
+    border: none;
+    background: #f1059e;
+    font-weight: 16px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;   
+    
+}
+
+ .step2 button:disabled{
+    
+    background: #ffc1d4;
+    cursor: not-allowed;
+
+} 
+
+@media (max-width:480px) {
+    .dishName{
+        grid-template-columns: 1fr;
+    }
+}
+

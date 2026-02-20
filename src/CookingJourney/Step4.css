@@ -1,0 +1,51 @@
+.step4{
+    
+    display: flex;
+    justify-content: center;
+    background: #fae4e4;
+}
+
+.loading{
+    background: rgba(255, 255, 255, 0.849);
+    padding: 20px 20px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.loading h2{animation: pulse 1.2s infinite;}
+
+@keyframes pulse {
+    0% { opacity:0.4;}
+    50% { opacity:1;}
+    100% { opacity:0.4;}
+
+}
+
+.result {
+    background: #9f08b001 ;
+    padding: 20px 20px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    
+}
+
+.result h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.result button {
+    padding: 12px 28px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(255, 47, 206);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.result button:hover {
+    background: rgba(172, 255, 47, 0.443);
+}
