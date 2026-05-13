@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "SSH FS - may@lolipop",
+			"uri": "ssh://may@lolipop/home/users/0/main.jp-i25021may"
+		}
+	],
+	"settings": {}
+}
