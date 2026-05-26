@@ -1,8 +1,10 @@
 # Quick Cooking　Game
 
-Reactを使用して制作した料理チャレンジWebアプリです。【　https://quick-cooking-game.vercel.app/　】
+Reactを使用して制作した料理チャレンジWebアプリです。
 
 ユーザーが料理を選択し、楽しくクッキング体験ができるように作成しました。
+
+[ゲームのデプロイリンクはこちら](https://quick-cooking-game.vercel.app/)
 
 ## 使用技術
 - React
